@@ -1,0 +1,187 @@
+.header {
+  font-family: $font-ss;
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  &-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 6rem;
+  }
+  &-content-desktop {
+    display: none;
+  }
+}
+
+
+.burger {
+  &-icon {
+    display: block;
+    height: 24px;
+    width: 20px;
+    margin-left: 2rem;
+    margin-right: 6rem;
+  }
+  &-bar {
+    height: 3px;
+    width: 20px;
+    margin: 3px 0;
+    background-color: $main-red;
+  }
+  &-menu {
+    position: absolute;
+    right: 100%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+  }
+}
+
+.first-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem 0;
+
+}
+
+.searchbar {
+  height: 4rem;
+  width: 28rem;
+  &-form {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  &-input {
+    background-color: #ebebeb;
+    border: solid 2px lightgrey;
+    width: 100%;
+    border-radius: 4px;
+  }
+  &-btn {
+    margin-left: -10px;
+    height: 100%;
+    width: 5rem;
+    padding: 0;
+    background-color: #ebebeb;
+    border: solid 2px lightgrey;
+    border-radius: 4px;
+  }
+}
+
+.close-btn {
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.user {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  &-btn {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    width: 13rem;
+    height: 4rem;
+  }
+}
+
+.inscription {
+  background-color: $main-red;
+}
+
+.connexion {
+  background-color: lightgrey;
+  color: #000;
+}
+
+.menu {
+  font-size: 1.8rem;
+  &-item {
+    padding: 1.5rem 0;
+    border-top: solid lightgrey 1px;
+    &:last-child {
+      border-bottom: solid lightgrey 1px;
+    }
+  }
+  &-link {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+.red-link {
+  color: $main-red;
+}
+
+.blue-link {
+  color: $light-blue;
+}
+
+.share {
+  margin: 2rem 0;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  &-link {
+    text-decoration: none;
+    color: #fff;
+  }
+  &-btn {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 100%;
+  }
+  &-plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    height: 4rem;
+    width: 4rem;
+    background-color: $dark-blue;
+  }
+  &-txt {
+    display: flex;
+    align-items: center;
+    background-color: $light-blue;
+    height: 100%;
+    width: 100%;
+    padding-left: 2rem;
+    font-size: 1.6rem;
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  &-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    height: 4rem;
+    width: auto;
+  }
+  &-img {
+    height: 4rem;
+    width: auto;
+  }
+}
+
+.logo {
+  display: flex;
+  &-img {
+    position: relative;
+    height: 4.5rem;
+  }
+}
