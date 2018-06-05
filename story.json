@@ -1,0 +1,63 @@
+{
+    "introduction": {
+        "key": "0",
+        "text": " De fins faisceaux de lumière s'écrasent sur la jalousie d'une porte close, venant éclairer un mur éclaboussé de sang.
+        benjamin est pris d'un mal de crâne auquel il ne trouve pas d'explication.
+        \"Et puis qu'est ce que je fais là pour commencer ?\" s'étonne t'il avant de réaliser que, mis à part son prénom, il ne se souvient de rien. rien, nada, walou, c'est le trou noir.
+        \"ok bon, pour commencer je vais sortir d'ici, puis je vais retrouver la raison de ma présence ici, ma mémoire va sûrement revenir !\" annonce t'il à voix haute tout en se dirigeant vers la seule porte des lieux.
+        D'un grand geste benjamin pousse la poignée puis protège rapidement ses yeux du torrent de lumière qui l'asaille.
+        Après quelque instant, sa vision s'accomode et il comprend très vite qu'il se trouve dans une banque, en pleine journée.
+        \"Mais qu'est ce que je fais là bon sang ?\" chuchotte benjamin.
+        Son apparation n'a visiblement alerté personne. Deux choix s'offrent alors à lui :
+        se faire discret et écouter les conversations des gens présent dans la BANQUE
+        ou alors, parler à la seule personne qui a l'air de travailler ici : la BANQUIERE.",
+        "choices": [{
+            "text": "se faire discret et écouter les conversations des gens présent dans la BANQUE",
+            "target": "A1",
+        }, {
+            "text": "parler à la seule personne qui a l'air de travailler ici : la BANQUIERE.",
+            "target": "B1",
+        }],
+    },
+
+    "princpale1": {
+        "key": "A1",
+        "text": " benjamin s'assoie de la manière la plus naturelle qu'il soit
+        \"Mdr ça rime\" pense t'il alors. Haha et en effet, il n'a pas tord.
+        Non content d'avoir abattu le 4ème mur comme un bulldozer, benjamin décide d'espionner les conversations ( comme l'a décidé le lecteur qui a l'air d'être un sacré sociopathe ).
+        une vieille dame chuchotte à sa voisine \" Je ne rêve pas, elle n'était pas là cette banque hier ? Elle n'a pas pu pousser pendant la nuit tout de même ? \"
+        \" Mais qu'est ce qu'elle raconte ? \" pense benjamin \" Sénile à son âge ? \".
+        benjamin commence à trouver cet endroit de plus en plus louche, il a cependant le choix entre : ",
+        "choices": [{
+            "text": "sortir de la banque",
+            "target": "A2",
+            }, {
+            "text": "parler à la seule personne qui a l'air de travailler ici : la BANQUIERE.",
+            "target": "B1",
+            }, {
+            "text": "fouiller la banque",
+            "target": "B2",
+        }],
+    },
+
+    "princpale1": {
+        "key": 1,
+        "text": ,
+        "choices": [{
+            "text": "sortir de la banque",
+            "target": "A2",
+            }, {
+            "text": "parler à la seule personne qui a l'air de travailler ici : la BANQUIERE.",
+            "target": "B1",
+        }],
+    },
+
+    "princpale1": {
+        "key": 1,
+        "text": ,
+        "choices": [{
+            "text": ,
+            "target": ,
+            }],
+    },
+}
