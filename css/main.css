@@ -1,0 +1,50 @@
+.body {
+    font-size: 1.35vw;
+}
+
+.gamestart {
+    display: none;
+}
+
+.game {
+    height: 98vh;
+    width: 98vw;
+    background-color: red;
+    margin: 0 auto;
+    position: relative;
+}
+
+.visual {
+    height: 74vh;
+    width: 98vw;
+    margin-top: 1vh;
+    background-color: white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-right: 0.5vw black solid;
+    border-left: 0.5vw black solid;
+    border-bottom: 0.25vw black solid;
+    border-top: 0.5vw black solid;
+}
+
+.textBox {
+    height: 24vh;
+    width: 98vw;
+    background-color: white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-right: 0.5vw black solid;
+    border-left: 0.5vw black solid;
+    border-bottom: 0.5vw black solid;
+    border-top: 0.25vw black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    width: 90vw;
+}
