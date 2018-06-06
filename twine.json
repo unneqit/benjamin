@@ -15,7 +15,7 @@
         }
       ],
       "name": "start",
-      "pid": "1",
+      "pid": "1"
     },
     {
       "text": "benjamin s'assoie de la manière la plus naturelle qu'il soit\n\"Mdr ça rime\" pense t'il alors. Haha et en effet, il n'a pas tord.\nNon content d'avoir abattu le 4ème mur comme un bulldozer, benjamin décide d'espionner les conversations ( comme l'a décidé le lecteur qui a l'air d'être un sacré sociopathe ).\nune vieille dame chuchotte à sa voisine \" Je ne rêve pas, elle n'était pas là cette banque hier ? Elle n'a pas pu pousser pendant la nuit tout de même ? \"\n\" Mais qu'est ce qu'elle raconte ? \" pense benjamin \" Sénile à son âge ? \".\nbenjamin commence à trouver cet endroit de plus en plus louche, il a cependant le choix entre :\n[[parler à la seule personne qui a l'air de travailler ici : la BANQUIERE.]]\n[[fouiller la banque]]\n[[sortir de la banque]]",
@@ -397,7 +397,7 @@
     {
       "text": "game over, chapeau l'artiste.",
       "name": "tenter d'enfoncer la porte",
-      "pid": "23",
+      "pid": "23"
     },
     {
       "text": "(set: $key to false ) \nla porte s'ouvre, cette femme est folle vous décidez de sortir de la banque en vitesse \n[[sortir de la banque]]",
@@ -409,7 +409,7 @@
         }
       ],
       "name": " utiliser le code ",
-      "pid": "24",
+      "pid": "24"
     }
   ],
   "name": "benjamin",
