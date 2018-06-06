@@ -1,0 +1,178 @@
+{
+    "intro": {
+        "text": "benjamin se réveille. De fins faisceaux de lumière s'écrasent sur une porte entrouverte, et viennent éclairer un mur éclaboussé de sang. benjamin est pris d'un mal de crâne inexplicable.\"Et puis qu'est ce que je fais là pour commencer ?\" se demande-t-il, avant de réaliser que, mis à part son prénom, il ne se souvient de rien. Rien. Nada. Walou. C'est le trou noir.\"Bon. Pour commencer je vais sortir d'ici, puis je vais retrouver la raison de ma présence ici, ma mémoire va sûrement revenir !\" annonce-t-il à voix haute tout en se dirigeant vers la seule porte des lieux.D'un grand geste benjamin appuie sur la poignée et pousse la porte, mais rien ne se passe.La porte s'ouvre dans l'autre sens. Il effectue donc le mouvement inverse et parvient à sortir de la pièce. Le torrent de lumière qui l'assaille l'oblige à fermer les yeux. Après quelques instants, sa vision s'accomode et il comprend très vite qu'il se trouve dans une banque, en pleine journée. \"Mais qu'est ce que je fais ici bon sang ?\" chuchotte benjamin. Son apparation n'a visiblement alerté personne. Deux choix s'offrent alors à lui :",
+        "choices": [{
+            "text": "se faire discret et écouter les conversations des gens présent dans la BANQUE",
+            "target": "good1A"
+        }, {
+            "text": "parler à la seule personne qui a l'air de travailler ici : la BANQUIERE.",
+            "target": "bad1A"
+        }]
+    },
+
+    "good1A": {
+        "text": "benjamin s'asseoit de la manière la plus naturelle qu'il soit\"Héhé ça rime\" pense-t-il alors. Haha, en effet, il n'a pas tord.Non content d'avoir abattu le 4ème mur comme un bulldozer D3K2 TIER 4 FINAL™, benjamin décide d'espionner les conversations (comme l'a décidé le lecteur qui a visiblement l'air d'être un sacré sociopathe).Une vieille dame chuchotte à sa voisine \"Je ne rêve pas, elle n'était pas là cette banque hier ? Elle n'a pas pu pousser pendant la nuit tout de même ?\"\"Mais qu'est ce qu'elle raconte ?\" pense benjamin \"Sénile à son âge ?\".benjamin commence à trouver cet endroit de plus en plus louche, il a cependant le choix entre :",
+        "choices": [{
+            "text": "sortir de la banque",
+            "target": "good2A"
+            }, {
+            "text": "parler à la seule personne qui a l'air de travailler ici : la BANQUIERE.",
+            "target": "bad1A"
+        }]
+    },
+
+    "good2A": {
+        "text": "Une fois dehors, benjamin se demande quel endroit serait le plus enclin à lui permettre de retrouver sa mémoire perdue. Après avoir laissé traîné son regard dans les alentours, deux batîments attire son attention au cinéma et à la piscine municipale . Il y a bien un bar, mais avec sa mémoire, le cliché du barman informateur est également partie. benjamin n'a de toute manière pas soif.. Pendant que vous, lecteur, lisiez, un gentilhomme passe par là. benjamin pourrait s'adresser à ce passant",
+        "choices": [{
+            "text": "Aller au cinéma",
+            "target": "good2B"
+            },
+            {
+            "text": "Aller à la piscine municipale",
+            "target": "good2C"
+            }, {
+            "text": "Parler au passant",
+            "target": "good3A"
+        }]
+    },
+
+    "good3A": {
+        "text": "benjamin peine à parler \"gnnngh...\" Passant : \"mdrrrr il t'arrive quoi ?\" benjamin \"Haha j'avais l'air complétement idiot à l'instant\" Passant : \" Yes mec on dirait même que tu viens juste de perdre la mémoire\" benjamin :  \"Comment tu sais ça ??\" Passant : \"Ok je disais ça au pif c'est un peu flippant... Je sais où aller si tu veux retrouver la mémoire ! Suis-moi !\" benjamin et son nouveau compagnon se dirigent vers le bar Passant : \"Je m'appelle Tony au fait, enfin \"au fait\" c'est pas mon nom de famille hein, moi c'est Tony Sosa\" benjamin : \"Moi c'est benjamin, mais attention, ça se prononce benjamin !!!\" Tony : \"Le pub c'est l'endroit idéal pour trouver des informations, j'ai vu ça dans des films\"" ,
+        "choices": [{
+            "text": "Aller au PUB avec Tony Sosa",
+            "target": "good4A"
+            }]
+    },
+
+    "good4A": {
+        "text": "Notre héros, maintenant accompagné de son compère Tony, fonce en direction du bar pour parler au barman. benjamin s'adresse à l'employé pour lui demander des informations. Le barman reste muet. benjamin insiste. Le barman gromelle." ,
+        "choices": [{
+            "text": "Commander à boire pour réfléchir",
+            "target": "good5A"
+            }, {
+            "text": "Insister",
+            "target": "good5B"
+            }]
+    },
+
+    "good5A": {
+        "text": "benjamin: \"Barman.. un p'tit lait siouplé\" le bar man :\"Aaah... En voilà un homme de goût ! Ok j'accepte de vous en dire plus\" benjamin: \"Sérieux ?!\" le bar man : \"Ouaip, moi c'est Bar Manne, et tu devrais aller voir l'effaceur de capacité de ma part.. il s'est reconverti maintenant il redonne la mémoire !! \" benjamin et Tony ont désormais les informations pour lesquelles ils étaient venu, ils décidents de " ,
+        "choices": [{
+            "text": "sortir du bar",
+            "target": "good6A"
+            }]
+    },
+
+    "good6A": {
+        "text": "benjamin et Tony Sosa sortent du bar avec leur nouvelle destination en tête. (l'effaceur de capacité pokémon qui s'est reconverti dans le recouvrage de mémoire humaine) Pour y aller, ils peuvent : y aller à pied ou alors monter dans cette splendide Toyota® rouge papillon haut de gamme avec un triple moteur XS ultraviolet ULTIME." ,
+        "choices": [{
+            "text": "Y aller à pied",
+            "target": "good7A"
+            }, {
+            "text": "Y aller en voiture",
+            "target": "bad7"
+            }]
+    },
+
+    "good7A": {
+        "text": "C'est à 5 minutes à pied, juste à côté de la banque. benjamin et Tony Sosa s'y rendent donc très vite et sans encombre. ben toc à la porte : EDC : \"vous ête qui ??\" benjamin : \"Bar Manne nous a dit que vous pourriez nous aider\" EDC : \"ok, entrez\" ",
+        "choices": [{
+            "text": "Entrer",
+            "target": "good8A"
+            }]
+    },
+
+    "good8A": {
+        "text": "Alors en fait là il y a un ENORME plot twist, on apprend que la banquière est pas gentille, mais alors pas du tout !!! benjamin retrouve la mémoire c'est la fête tout le monde est content sauf la banquière qui est en prison voili voiloù :)"
+    },
+
+    "bad1A": {
+        "text": "benjamin explique sa situation et la banquière lui répond avec un sourire bienveillant. Elle lui demande de la suivre.",
+        "choices": [{
+            "text": "La suivre",
+            "target": "bad2A"
+        }]
+    },
+
+    "bad2A": {
+        "text": "La banquière enferme benjamin dans une salle plutôt glauque.. Et \"enfermer\" est le terme exact car il n'a aucun moyen de sortir.. Les dev on manqué de temps pour implémenter la fouille dans le décors pas de chance :/",
+        "choices": [{
+            "text": "Tenter d'enfoncer la porte malgrè tout",
+            "target": "bad3A"
+        }]
+    },
+
+    "bad3A": {
+        "text": "\"AIE ça va pas ou quoi ???!\" s'écrit la pauvre porte qui n'avais rien demandé, avant de cracher un gaz toxique qui TUE benjamin... GAME OVER chapeau l'artiste."
+    },
+
+    "good2C": {
+        "text": "benjamin n'a que son slip de pas-bain sur lui. il se fait donc prêter un slip de bain rouge et un joli petit bonnet de bain qu'il ne met pas de peur d'abîmer sa coiffure. il rencontre une jolie fille, le courant passe, c'est le coup de foudre !! \"Aïe\" s'écrient benjamin et la jolie fille en coeur. benjamin n'a toujours pas recouvrer sa mémoire.. mais il pourrait rester ici.. près d'elle",
+        "choices": [{
+            "text": "Rester à discuter",
+            "target": "happy"
+            },
+            {
+            "text": "Revenir à la vraie intrigue",
+            "target": "good3C"
+        }]
+    },
+
+    "happy": {
+        "text": "blabla mariage fin heureuse tout le monde est content yes super"
+    },
+
+    "good2B": {
+        "text": "Vous regardez un super film qui raconte l'histoire d'un mec qui s'appellait brandon et qui avait perdu la mémoire.",
+        "choices": [{
+            "text": "Revenir à la vraie intrigue",
+            "target": "good3B"
+        }]
+    },
+
+    "good3B": {
+        "text": " Pas mal ce film ! benjamin se demande si il connaissait ce réalisateur, un certain \"yoonns\", avant de perdre la mémoire. Que faire maintenant ? Le passant de tout à l'heure est toujours là, c'est plus un restant qu'un passant finalement.",
+        "choices": [{
+            "text": "Aller à la piscine municipale",
+            "target": "good2C"
+            }, {
+            "text": "Parler au passant",
+            "target": "good3A"
+        }]
+    },
+
+    "good3C": {
+        "text": " Belle trempette ! benjamin n'oubliera jamais cette fille... Que faire maintenant ? Le passant de tout à l'heure est toujours là, c'est plus un restant qu'un passant finalement. La piscine vous a épuisé vous ne vous sentez plus trop de regarder un film..",
+        "choices": [{
+            "text": "Parler au passant",
+            "target": "good3A"
+        }]
+    },
+
+    "bad7": {
+        "text": "benjamin entre dans la voiture, une alarme retentit  et Tony Sosa le regarde un peu étonné mais entre avec lui. après quelques kilomètres benjamin réalise qu'il ne sait pas conduire, entre dans un arbre et démolit la voiture. \"merde ta voiture est atomisé mec, a-to-mi-sé !!!\" \" attend tony, comment ça \" ma voiture \" \" benjamin avait oublié l'existance du droit de propriété et pensait que tout était à tout le monde.. la tuile !! Un monsieur super mega musclé se pointe en colère, la voiture est sûrement à lui..." ,
+        "choices": [{
+            "text": "FUIR !!!!",
+            "target": "bad8"
+            }]
+    },
+
+    "bad8": {
+        "text": "vous devez vite trouver un plan pour rembourser le monsieur en colère tony sosa propose un plan de braquage de banque qu'il a très intelligemment appelé \" Ocean eleven à 2 \" " ,
+        "choices": [{
+            "text": "Accepter le plan",
+            "target": "bad9A"
+            }, {
+            "text": "Se rendre à la police car vous êtes un lâche",
+            "target": "bad9B"
+            }]
+    },
+
+    "bad9A": {
+        "text": "direction la banque, vite !! plus de temps à perdre vous enfilez votre masque et entrez dans la banque armé du GROS pistolet de que tony vous à confié ( c'est un GROS pistolet en plastique pour pas qu'il y ait d'accident faut pas abuser non plus ). la banquière appelle son collègue pour remplir vos sacs : \" BENJAMIN REMPLI VITE LE SAC D'ARGENT !! \" \" AAAAAH çA SE PRONONCE PAS COMME çA C'EST PAS DIFFICILE à COMPRENDRE BON SANG B.E.N BAN.. BANJAMIN \" \" attendez mais.. c'est VOUS ???! \" vous êtes démasqué, pris de panique vous clignez des yeux. pendant cette fraction de seconde la banquière qui était en fait la grande méchante sort son revolver, le Taurus Raging Bull™️, qui ne possède que cinq chambres ( en calibre .454 Casull ) : \" PAN \" crie-t-elle vous sursautez avant de réagir : \" MDRRR tu m'as fait peur \" elle tire vous êtes mort, tchao pantin. ( mauvaise ) FIN "
+    },
+
+    "bad9B": {
+        "text": "la police vous arrête, la sentence est tombé, dix mille an de prison. vous passez le restant de votre vie derière les barreaux, sans jamais trouver de réponse à vos questions, dommage :) (gros looser)"
+    }
+}
