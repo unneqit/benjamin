@@ -1,50 +1,133 @@
 .body {
+    font-family: 'VT323', monospace;
     font-size: 1.35vw;
+    background: #009688;
 }
 
-.gamestart {
-    display: none;
-}
-
-.game {
-    height: 98vh;
-    width: 98vw;
-    background-color: red;
-    margin: 0 auto;
-    position: relative;
-}
-
-.visual {
-    height: 74vh;
-    width: 98vw;
-    margin-top: 1vh;
-    background-color: white;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    border-right: 0.5vw black solid;
-    border-left: 0.5vw black solid;
-    border-bottom: 0.25vw black solid;
-    border-top: 0.5vw black solid;
-}
-
-.textBox {
-    height: 24vh;
-    width: 98vw;
-    background-color: white;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    border-right: 0.5vw black solid;
-    border-left: 0.5vw black solid;
-    border-bottom: 0.5vw black solid;
-    border-top: 0.25vw black solid;
+.startStory {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background: #009688;
+}
+
+.logoContainer {
+  position: relative;
+
+  width: 40vw;
+  height: auto;
+}
+
+.logoText {
+  height: 100%;
+  width: 100%;
+}
+
+.logoSlip {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 86%;
+  height: 28%;
+  width: auto;
+  -webkit-animation-delay: 2.3s;
+  -webkit-animation-duration: 4.5s;
+}
+
+.startBtn {
+  font-family: 'VT323', monospace;
+  font-size: 1.5vw;
+  padding: 1vw;
+  border: none;
+  outline: none;
+  height: 8vh;
+  background-color: #fff;
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-duration: 1s;
+  transition: all ease 0.5s;
+}
+
+.startBtn:hover {
+  background-color: #e2e2e2;
+  cursor: pointer;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 80vw;
+  background-color: #fff;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 0.5vw #000 solid;
+  border-bottom: 0.25vw #000 solid;
+}
+
+.image {
+  height: 80%;
+  width: auto;
+  max-width: 100%;
+}
+
+.textContainer {
+    height: 24vh;
+    width: 80vw;
+    background-color: white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 0.5vw #000 solid;
+    border-top: 0.25vw #000 solid;
+    padding: 2vh 4vh;
+    overflow-y: scroll;
+}
+
+.choice {
+  display: flex;
+  justify-content: space-around;
+}
+
+.choice_btn {
+  font-family: 'VT323', monospace;
+  font-size: 1.1rem;
+  margin-top: 2vh;
+  padding: 1vw;
+  border: solid 5px #037c70;
+  outline: none;
+  width: 30vw;
+  background-color: #009688;
+  color: #fff;
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-duration: 1s;
+  transition: all ease 0.5s;
+}
+
+.choice_btn:hover {
+  background-color: #037c70;
+  cursor: pointer;
 }
 
 .text {
-    width: 90vw;
+    width: 100%;
 }

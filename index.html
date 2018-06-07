@@ -3,30 +3,34 @@
     <head>
         <meta charset="utf-8">
         <title>benjamin</title>
+        <link rel="icon" href="assets/img/favicon.svg"/>
+        <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+        <link rel="stylesheet" href="css/animate.min.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body class="body">
 
-        <section class="gamestart">
-            <div class="start">
-                <img src="" alt="">
-
-            </div>
+        <section class="startStory">
+          <div class="logoContainer">
+            <img src="assets/img/logo_slip.png" alt="" class="logoSlip animated hinge">
+            <img src="assets/img/logo_text_noslip.png" alt="" class="logoText">
+          </div>
+          <button class="startBtn animated bounceIn">Démarrer l'aventure</button>
         </section>
 
-        <section class="game">
-            <div class="visual">
-
+        <section class="story">
+            <div class="imageContainer">
+              <img src="" alt="" class="image">
             </div>
-
-            <div class="textBox">
-                <p class="text"></p>
-                <div class="choice"></div>
+            <div class="textContainer">
+              <p class="text"></p>
+              <div class="choice"></div>
             </div>
+            <audio class="music" src="" loop></audio>
         </section>
 
-    <script src="app.js" type="text/javascript"></script>
+    <script src="scripts/app.js" type="text/javascript"></script>
 
     </body>
 </html>
