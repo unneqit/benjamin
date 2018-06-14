@@ -2,6 +2,7 @@
     font-family: 'VT323', monospace;
     font-size: 1.35vw;
     background: #009688;
+    overflow: hidden;
 }
 
 .startStory {
@@ -76,7 +77,7 @@
   align-items: center;
   height: 70vh;
   width: 80vw;
-  background-color: #fff;
+  background-color: rgba(250,250,250,0.7);
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -90,10 +91,11 @@
   max-width: 100%;
 }
 
+
 .textContainer {
     height: 24vh;
     width: 80vw;
-    background-color: white;
+    background-color: rgba(250,250,250,0.6);
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -103,6 +105,10 @@
     overflow-y: scroll;
 }
 
+.textContainerNext {
+    cursor: url(../assets/cursor/next.png), auto;
+}
+
 .choice {
   display: flex;
   justify-content: space-around;
@@ -110,7 +116,7 @@
 
 .choice_btn {
   font-family: 'VT323', monospace;
-  font-size: 1.1rem;
+  font-size: 1.5vw;
   margin-top: 2vh;
   padding: 1vw;
   border: solid 5px #037c70;
@@ -123,11 +129,36 @@
   transition: all ease 0.5s;
 }
 
-.choice_btn:hover {
+.helper {
+    width: 95vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.restart, .mute {
+    border: solid 5px #037c70;
+    padding: 0.6vw;
+    font-size: 1rem;
+    outline: none;
+    width: 20vw;
+    background-color: #009688;
+    color: #fff;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-duration: 1s;
+    transition: all ease 0.5s;
+}
+
+.choice_btn:hover, .restart:hover, .mute:hover {
   background-color: #037c70;
   cursor: pointer;
 }
 
 .text {
+    font-size: 2vw;
     width: 100%;
+    /* cursor: default; */
+}
+
+::-webkit-scrollbar {
+display: none;
 }
